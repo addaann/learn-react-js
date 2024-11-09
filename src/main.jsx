@@ -7,6 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Product from './Pages/Product.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/tic-tac-toe',
     element: <TicTacToe />
+  },
+  {
+    path: '/product',
+    element: <Product />
   }
 ])
 
